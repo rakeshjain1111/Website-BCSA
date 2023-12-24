@@ -1,0 +1,145 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Solway:wght@300;400;500;700;800&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+/* Universal CSS Start */
+:root{
+    --darkpink:#dd127b;
+    --dark:#000000e6;
+    --skyblue:#1cabf3;
+    --red:#dc3545;
+    --gray:#e2e2e2;
+}
+ 
+.bg-gray{
+    background: var(--gray);
+}
+
+.text-gray{
+    color: var(--gray);
+}
+.bg-red{
+    background: var(--darkpink);
+}
+
+.text-red{
+    color: var(--darkpink);
+}
+
+.bg-darkpink{
+    background: var(--darkpink);
+}
+
+.text-darkpink{
+    color: var(--darkpink);
+}
+
+.bg-skyblue{
+    background: var(--skyblue) !important;
+}
+
+.text-skyblue{
+    color: var(--skyblue);
+}
+
+.fs-10{font-size: 10px;}
+.fs-11{font-size: 11px;}
+.fs-12{font-size: 12px;}
+.fs-13{font-size: 13px;}
+.fs-14{font-size: 14px;}
+.fs-15{font-size: 15px;}
+.fs-16{font-size: 16px;}
+.fs-17{font-size: 17px;}
+
+a{
+font-family: "roboto",sans-serif;
+text-decoration: none;
+}
+
+a:hover{
+    color: var(--darkpink) !important;
+    transform: scale(1.1);
+    transition: all 0.2s;   
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'roboto',sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+/* Universal CSS end */
+
+/* navbar section Start */
+.navbar .navbar-nav .nav-item .nav-link{
+    position: relative;
+    padding: 8px 12px;
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.navbar .dropdown:hover .dropdown-menu{
+    display: block;
+}
+/* navbar section end */
+/* banner section Start */
+.carousel-indicators [data-bs-target] {
+    width: 18px;
+    height: 18px;
+    line-height: 12px;
+    border-radius: 50%;
+    border-top: 10px;
+    border-bottom: 10px;
+    background: var(--darkpink);
+}
+
+.carousel-item .carousel-caption{
+   top: 40%;
+   left: 9%;
+   text-align: left;
+   color: var(--darkpink);
+   font-family: 'solway',serif !important;
+}
+
+.carousel-item .carousel-caption h4,h1{
+    font-family: 'solway',serif;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+   
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 8%;
+    opacity: 0.9;
+}
+
+marquee{
+    box-shadow: 0px 0px 5px #808080;
+}
+/* banner section end */
+/* courses section start */
+
+/* courses section end */
+

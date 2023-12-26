@@ -105,8 +105,7 @@ p{
     height: 18px;
     line-height: 12px;
     border-radius: 50%;
-    border-top: 10px;
-    border-bottom: 10px;
+    border: 1px;
     background: var(--darkpink);
 }
 
@@ -140,6 +139,8 @@ marquee{
 }
 /* banner section end */
 /* courses section start */
-
+  .img{
+    align-content: center;
+  }
 /* courses section end */
 

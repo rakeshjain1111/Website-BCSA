@@ -85,6 +85,10 @@ p{
     text-align: justify;
     letter-spacing: 0.5px;
 }
+
+.btn:hover{
+    background: var(--dark);
+}
 /* Universal CSS end */
 
 /* navbar section Start */
@@ -139,8 +143,39 @@ marquee{
 }
 /* banner section end */
 /* courses section start */
-  .img{
-    align-content: center;
-  }
+.img{
+align-content: center;
+}
 /* courses section end */
+/* help section start */
+.help .icon{
+    width: 70px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 1px #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.help .icon:hover,.help .icon:hover a{
+    background: var(--skyblue);
+    color: var(--darkpink);
+}
+
+.help .content p{
+    line-height: 20px !important;
+}
+
+.help .contact-info{
+    align-items: center;
+    border-top: 4px solid var(--skyblue);
+    border-bottom: 4px solid var(--skyblue);
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+/* help section end */
 

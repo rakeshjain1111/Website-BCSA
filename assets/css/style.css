@@ -205,3 +205,25 @@ align-content: center;
  }
 /* footer section end */
 
+/* FRANCHISES Dropdown CSS Start */
+    /* Norm-Regulation Page Css Start */
+      
+      /* banner section start */
+      .allbanner{
+        background: url(../img/Allbannerr.jpg);
+        background-size: 100%;
+        height: 350px;
+        line-height: 350px;
+        justify-content: center;
+      }
+
+      /* banner section end */
+
+
+
+
+    /* Norm-Regulation Page Css End */
+     
+
+
+/* FRANCHISES Dropdown CSS End */
